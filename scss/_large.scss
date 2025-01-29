@@ -1,0 +1,22 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+#myButton {
+    display: none;
+}
+
+ul.menu li a {
+    padding: .4rem, 1rem;
+}
+
+ul.menu, ul.menu.open {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.menu a:hover {
+    background-color: $secondaryColor;
+}
