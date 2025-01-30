@@ -35,11 +35,12 @@
     <nav>
         <button id="myButton"></button>
         <ul class="menu">
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Services</a></li>
-            <li class="active"><a href="#">Best Practices</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Kitchen</a></li>
+            <li class="active"><a href="#">Our Menu</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Careers</a></li>
         </ul>
     </nav>
 </div> <!-- end nav wrapper -->
@@ -48,7 +49,46 @@
     <main>
 
         <h1>Top Orders</h1>
-        <div></div>
+        <div class="cards">
+            <section>
+                <h2>#1 Burger</h2>
+                <img  class="e3e" src="images/burger.webp" alt="Burger *Adobe AI*" width="300" height="233"loading="lazy">
+                <p>America's number one burger features delicious tomatoes, crisp lettuce, ketchup, and more.</p>
+                <a href="#">Recipe</a>
+            </section>
+
+            <section>
+                <h2>#2 Hotdog</h2>
+                <img src="images/hotdog.webp" alt="Hotdog *Adobe AI*" width="300" height="233" loading="lazy">
+                <p>Hot dogs are America's number two favorite for their fast and delicious pick-up during baseball games. They're convenient, tasty, and perfect for everyone to enjoy!</p>
+                <a href="#">Recipe</a>
+            </section>
+
+            <section>
+                <h2>#3 Apple Pie</h2>
+                <img src="images/pie.webp" alt="Apple Pie *Adobe AI*" width="300" height="233" loading="lazy">
+                <p>The Apple Pie is one of our top three recipes, selected from our story.</p>
+                <a href="#">Recipe</a>
+            </section>
+
+            <section>
+                <h2>#4 Noddles</h2>
+                <img src="images/noddles.webp" alt="Noddles *Adobe AI*" width="300" height="233" loading="lazy">
+                <p>Our Noodles is one of our top four recipes. It's a Cream Chicken Noodles dish that is delicious and simple to make.</p>
+                <a href="#">Recipe</a>
+            </section>
+
+            <section>
+                <h2>#5 Grilled Cheese</h2>
+                <img src="images/sandwitche.webp" alt="Grilled Cheese *Adobe AI*" width="300" height="233" loading="lazy">
+                <p>Our Grilled Cheese Sandwiches is one of our top five recipes that people love to make. This delicious sandwich has been in our top five for a while and continues to be a favorite.</p>
+                <a href="#">Recipe</a>
+            </section>
+
+
+
+
+        </div>
      
 
     </main>
@@ -56,10 +96,33 @@
     
 <div id="footerWrapper">
     <footer>
-        <p>Copyright &copy; 2025 Design Thinking Inc. All rights reserved. 
+        <div id="intell">
+            <section class="contact">
+                <p><ion-icon name="person-outline"></ion-icon>Im@home Admin</p>
+                <p><a href="email"><ion-icon name="mail-outline"></ion-icon>Im@home.com</a></p>
+                <p><a href="home"><ion-icon name="earth-outline"></ion-icon>Faerieland</a></p>
+                <p><a href="https://PureDeli.com"><ion-icon name="home-outline"></ion-icon>PureDeli.com</a></p>
+                <p><a href="tel:1231231234"><ion-icon name="call-outline"></ion-icon>123 123 1234</a></p>
+            </section>
+            <section class="social">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+
+            </section>
+            <section class="location" alt="*AI made random Locations*">
+                <address>Dreamville,<br>Elfington,<br>Faerieland,<br>34567
+                </address>
+
+            </section>
+        </div>
+        <p>Copyright &copy; <span id="year">x</span> Pure Deli Inc. All rights reserved. 
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
     </footer>
 </div> <!-- end footer wrapper -->
-<script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html> 

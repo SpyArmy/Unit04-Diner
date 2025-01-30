@@ -18,5 +18,13 @@ ul.menu, ul.menu.open {
 }
 
 ul.menu a:hover {
-    background-color: $secondaryColor;
+    background-color: $tanColor;
+}// end nav
+
+//cards
+div.cards{
+
+    section {
+        flex-basis: calc(30.0000% - (($gutter*2)/3));
+    }
 }

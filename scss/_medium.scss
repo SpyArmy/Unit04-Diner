@@ -1,1 +1,30 @@
 /* NAVIGATION STUFF GOES HERE  */
+
+
+// cards
+div.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section {
+        flex-basis: calc(45% - ($gutter / 2));
+    }
+}// end ccards
+
+//intell
+div #intell {
+    display: flex;
+    justify-content: space-between;
+    section {
+        margin: 0;
+    }
+    
+}
+
+
+footer {
+    padding: 1rem $gutter;
+    color: $whiteColor;
+    line-height: $leading;
+    text-align: left;
+}

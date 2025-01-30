@@ -18,6 +18,7 @@ body {
     font-family: $defaultFont;
     font-weight: $lightWeight;
     min-width: 320px;
+    background-color: $greyColor;
 
 }
 
@@ -28,6 +29,14 @@ header {
     }
 }
 
+// colors
+//#090A0D black
+//#1E2026 grey
+//#F2E96B yellow
+//#F2BA52 tan
+//#A68444 brown
+//#fff white
+
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {border-bottom: 1px solid $greyColor;}
@@ -37,10 +46,11 @@ header {
     column-gap: $gutter;
     align-items: center; //vertically
     padding: .5rem $gutter;
+    background-color: #1E2026;
     span {
         font-size: 1.6rem;
         font-weight: $boldWeight;
-        color: $primaryColor;
+        color: #F2BA52;
     }
 } // end header
 
@@ -49,7 +59,7 @@ header {
 
 // Nav
 nav {
-    background-color: $primaryColor;
+    background-color: $blackColor;
 }
 
 // humburger
@@ -60,7 +70,7 @@ nav {
 #myButton {
     border: none;
     background: none;
-    color: white;
+    color: $whiteColor;
     font-size: 2rem;
     padding: 50;
     width: 44px;
@@ -77,14 +87,16 @@ ul.menu {
     display: none;
 
     li a {
-        color: white;
+        color: $whiteColor;
         display: block;
         padding: .75rem $gutter;
         text-decoration: none;
     }
     li.active a {
-        background-color: red;
+        background-color: $goldColor;
+        color: $blackColor;
     }
+
 }
 
 // css open
@@ -98,43 +110,92 @@ ul.open.menu {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $secondaryColor;
+        color: $goldColor;
         font-weight: $boldWeight;
     }
     p {
         padding: .5rem $gutter;
-        color: #333;
+        color: $whiteColor;
         line-height: $leading;
     }
 }// end main
+
+//cards
+.cards {
+
+    section{
+        border: 1px solid $whiteColor;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: $blackColor;
+        margin: 1rem;
+
+        h2, p, img {
+            margin: 0;
+            padding: 1rem $gutter;
+        }
+
+        h2 {
+            background-color: $goldColor;
+            font-size: 1.5rem;
+            text-align: center;
+            color: $blackColor;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        img.e3e {
+            padding: 0;
+        } 
+        p {
+            font-style: italic;
+            color: $whiteColor;
+
+        }
+        a {
+            display: block;
+            text-align: center;
+            padding: .75rem;
+            background-color: $goldColor;
+            color: $blackColor;
+            text-decoration: none;
+            margin: 0 3rem 1rem 3rem ;
+            border-radius: 10px;
+        }
+    }
+}
+
+section h2 {
+    color: $goldColor;
+}
 
 
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-    background-color: $primaryColor
+    background-color: $blackColor;
 } // end footer wrapper
+
+//icon
+.social ion-icon {
+    font-size: 4em;
+}
+.contact ion-icon {
+    font-size: 1rem;
+}
 
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: $whiteColor;
     text-align: center;
     line-height: $leading;
-    a {color: $greyColor;}
+    a {color: $whiteColor;}
 }// end footer
