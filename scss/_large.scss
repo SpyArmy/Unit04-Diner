@@ -28,3 +28,8 @@ div.cards{
         flex-basis: calc(30.0000% - (($gutter*2)/3));
     }
 }
+
+footer {
+    max-width: 960px;
+    margin: auto;
+}

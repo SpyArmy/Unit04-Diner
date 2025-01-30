@@ -454,10 +454,12 @@ section h2 {
 
 .social ion-icon {
   font-size: 4em;
+  padding: 0 10px 0 0;
 }
 
 .contact ion-icon {
   font-size: 1rem;
+  padding: 0 10px 0 0;
 }
 
 footer {
@@ -516,5 +518,9 @@ footer a {
   }
   div.cards section {
     flex-basis: calc(30% - 6.6666666667px);
+  }
+  footer {
+    max-width: 960px;
+    margin: auto;
   }
 }/*# sourceMappingURL=styles.css.map */
