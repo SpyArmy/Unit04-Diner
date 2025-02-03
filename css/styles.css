@@ -320,21 +320,6 @@ body {
   background-color: #1E2026;
 }
 
-/*header {
-    img {
-        width: 100%;
-    }
-}
-
-// colors
-//#090A0D black
-//#1E2026 grey
-//#F2E96B yellow
-//#F2BA52 tan
-//#A68444 brown
-//#fff white
-
-
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
   border-bottom: 1px solid #1E2026;
@@ -342,7 +327,6 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 50px auto;
   -moz-column-gap: 10px;
        column-gap: 10px;
   align-items: center;
