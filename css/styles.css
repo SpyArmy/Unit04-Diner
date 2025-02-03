@@ -320,9 +320,20 @@ body {
   background-color: #1E2026;
 }
 
-header img {
-  width: 100%;
+/*header {
+    img {
+        width: 100%;
+    }
 }
+
+// colors
+//#090A0D black
+//#1E2026 grey
+//#F2E96B yellow
+//#F2BA52 tan
+//#A68444 brown
+//#fff white
+
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
