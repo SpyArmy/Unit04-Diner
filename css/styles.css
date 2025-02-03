@@ -472,6 +472,9 @@ footer {
 footer a {
   color: #fff;
 }
+footer p {
+  text-align: center;
+}
 
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
